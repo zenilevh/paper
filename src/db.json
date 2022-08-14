@@ -1,0 +1,86 @@
+[
+    {
+        "user": "budi@mail.co",
+        "password": "123",
+        "name": "Budianto Purnomo",
+        "createAt": "11/2/2020",
+        "updateAt": "11/2/2020",
+        "address": {
+            "Street": " Jl Danau Agung Bl E-2/26 A-I Sunter Agung Podomoro, Dki Jakarta",
+            "City": "Jakarta Timur",
+            "province": "Jakarta",
+            "Zip code": 14350,
+            "Phone": "08216683468",
+            "Country": "Indonesia"
+        },
+        "total_balance": 0,
+        "account_type": [
+            {
+                "id": 31,
+                "account": "Motorcyle",
+                "type": "Assets",
+                "balance_account": 20000000,
+                "transactions": [
+                    {
+                        "id": 21,
+                        "detail": "Checking D/11",
+                        "transaction": 10000000,
+                        "type_transaction": "D",
+                        "createAt": "11/2/2020"
+                    },
+                    {
+                        "id": 11,
+                        "detail": "Checking D/11",
+                        "transaction": 10000000,
+                        "type_transaction": "D",
+                        "createAt": "11/2/2020"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "account": "Belanja",
+                "type": "Expenses",
+                "balance_account": 10000000,
+                "transactions": [
+                    {
+                        "id": 13,
+                        "detail": "Rent D/11",
+                        "transaction": 20000000,
+                        "type_transaction": "D",
+                        "createAt": "11/2/2020"
+                    },
+                    {
+                        "id": 63,
+                        "detail": "Rent D/11",
+                        "transaction": 10000000,
+                        "type_transaction": "C",
+                        "createAt": "11/2/2020"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "account": "Masa depan",
+                "type": "Revenue",
+                "balance_account": 20000000,
+                "transactions": [
+                    {
+                        "id": 83,
+                        "detail": "Revenue D/11",
+                        "transaction": 60000000,
+                        "type_transaction": "C",
+                        "createAt": "11/2/2020"
+                    },
+                    {
+                        "id": 85,
+                        "detail": "Account receiveable D/14",
+                        "transaction": 40000000,
+                        "type_transaction": "D",
+                        "createAt": "11/2/2020"
+                    }
+                ]
+            }
+        ]
+    }
+]
