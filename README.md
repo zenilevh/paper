@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+# IMPORTANT NOTE : username : budi@mail.co password : 123
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
