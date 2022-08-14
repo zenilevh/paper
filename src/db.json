@@ -9,11 +9,11 @@
             "Street": " Jl Danau Agung Bl E-2/26 A-I Sunter Agung Podomoro, Dki Jakarta",
             "City": "Jakarta Timur",
             "province": "Jakarta",
-            "Zip code": 14350,
+            "code": 14350,
             "Phone": "08216683468",
             "Country": "Indonesia"
         },
-        "total_balance": 0,
+        "total_balance": 1090000000000,
         "account_type": [
             {
                 "id": 31,

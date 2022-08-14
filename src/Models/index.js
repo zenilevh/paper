@@ -75,7 +75,6 @@ const models = {
         localStorage.setItem('db', JSON.stringify(state.account));
     }),
     patchTransaction: action((state, payload) => {
-        console.log(payload, 'payload ###')
         const transactions = state.detailAccount.transactions
         const filterTransactions = transactions.map(transaction => transaction.id === payload.id ? { ...transaction, ...payload } : transaction)
         state.detailAccount.transactions = filterTransactions

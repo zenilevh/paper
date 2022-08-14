@@ -27,9 +27,7 @@ const Routing = () => {
   }, [listUser]);
 
   useEffect(() => {
-    console.log('reloading', isAuthorized)
     if (isAuthorized) {
-      console.log(persistDb);
       setData(JSON.parse(persistDb));
     } else {
       setLogout()

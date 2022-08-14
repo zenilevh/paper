@@ -3,6 +3,7 @@ import AddUpdateForm from 'components/AddUpdateForm';
 import DetailTransaction from 'pages/DetailTransaction';
 import notFound from 'pages/notFound';
 import AddUpdateFormDetail from 'components/AddUpdateFormDetail';
+import Profile from 'pages/Profile';
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
   {
     path: 'overview',
     component: Overview,
+    exact: true,
+  },
+  {
+    path: 'profile',
+    component: Profile,
     exact: true,
   },
   {
